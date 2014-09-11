@@ -1,4 +1,5 @@
 # countdown2.rb
+puts "Please enter in a number."
 x = gets.chomp.to_i
 
 begin
