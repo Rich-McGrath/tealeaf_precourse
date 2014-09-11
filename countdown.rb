@@ -1,7 +1,7 @@
 puts "Please enter a number"
 x = gets.chomp.to_i
 
-while x >=0
+until x < 0
   puts x
   x -= 1  # <-- refactored this line
 end
