@@ -1,0 +1,10 @@
+arr = [1, 3, 5, 7, 9, 11]
+number = 3
+
+if arr.include?(number)
+  puts "This array has the #{number}"
+else
+  puts "Sorry this array does not have your number"
+end
+
+    
