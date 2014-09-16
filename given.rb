@@ -13,4 +13,3 @@ family = { uncles: ["bob", "joe", "steve"],
   arr = immediate_family.values.flatten
   
   p arr
-  
