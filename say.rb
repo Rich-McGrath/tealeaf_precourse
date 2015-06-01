@@ -1,9 +1,8 @@
-def say (words= 'Hello.')
-  puts words + '.' ## <= We only make the hange here!
+def say(words='hello')
+  puts words + '.'
 end
 
-
-  say()
-  say("Hi.")
-  say("How are you?")
-  say("I'm fine.")
+say()
+say("hi")
+say("how are you")
+say("I'm fine")
