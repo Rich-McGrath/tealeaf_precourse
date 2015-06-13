@@ -1,0 +1,6 @@
+sudo: true
+language: ruby
+ruby:
+    - "2.2"
+script:
+    - echo "TODO"
