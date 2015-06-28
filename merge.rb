@@ -2,7 +2,7 @@ cat = {name: "whiskers"}
 
 weight = {weight: "10 lbs"}
 
-puts cat.merbe(weight)
+puts cat.merge(weight)
 
 puts cat  # => {:name=>"whiskers"}
 
