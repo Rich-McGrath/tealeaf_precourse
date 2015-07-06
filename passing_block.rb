@@ -1,7 +1,10 @@
-def take_block(&block)
+def take_block(numner, &block)
   block.call
 end
 
-take_block do
-  puts "Block being called in the method!"  
+[1, 2, 3, 4, 5].each do |number|
+  take_block number do
+    puts "Block being called in the method! #{number}"
+
+  end
 end
