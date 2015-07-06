@@ -1,8 +1,14 @@
-def greeting(name)
-  "Hello, " + name + ". How are you today?"
+def space_out_letters(person)
+  return person.split("").join(" ")
 end
 
-#puts "What is your name?"
-#name = gets
+def greet(person)
+  return "H e l l o, " + space_out_letters(person)
+end
 
-puts greeting('Rich')
+def decorate_greeting(person)
+  puts "" + greet(person) + ""
+end
+
+decorate_greeting("John")
+decorate_greeting(1)
