@@ -2,3 +2,5 @@ ages = { "Herman" => 32, "Lily" => 30, "Grandpa" => 5843, "Eddie" => 10, "Marily
   "Spot" => 237 }
 
 p ages.min
+
+p ages.values.min # The books answer
