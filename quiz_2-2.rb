@@ -12,3 +12,5 @@ ages.each do |name, age|
 end
 
 p total_age
+
+p ages.values.inject(:+) # solution
