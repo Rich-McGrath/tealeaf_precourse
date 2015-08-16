@@ -1,0 +1,14 @@
+puts "Please enter in a Ip Address"
+
+input_string = gets.chomp.to_i
+
+def dot_separated_ip_address?(input_string)
+  dot_separated_words = input_string.split(".")
+  return false unless dot_separated_words.size == 4
+
+  while dot_separated_words.size > 0 do
+    word = dot_separated_words.pop
+    return false unless is_a_number?(word)
+  end
+
+end
