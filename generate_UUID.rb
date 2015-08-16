@@ -1,14 +1,16 @@
 def generate_UUID
   characters = []
-    (0..9).each { |digit| characters << digit.to_S }
+    (0..9).each { |digit| characters << digit.to_s }
     ('a'..'f').each { |digit| characters << digit }
 
     uuid = ""
     sections = [8, 4, 4, 4, 12]
     sections.each_with_index do |section, index|
       section.times { uuid += characters.sample}
-      uuisv += '-' unless index >= section.size -1
+      uuid += '-' unless index >= section.size - 1
     end
 
-    uuid
+  uuid
   end
+
+  puts generate_UUID
