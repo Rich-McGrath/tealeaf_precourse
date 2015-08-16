@@ -8,7 +8,7 @@ def generate_UUID
     sections.each_with_index do |section, index|
       section.times { uuid += characters.sample}
       uuid += '-' unless index >= section.size - 1
-    end
+    #end
 
   uuid
   end
